@@ -33,7 +33,7 @@
     
     // Checking for sent ok
     var interval = setInterval(function() {
-        if (document.querySelector(".wpcf7-mail-sent-ok")) {
+        if (document.querySelector("#content .wpcf7-mail-sent-ok")) {
             document.querySelector("#paypal-form").submit();
             clearInterval(interval);
         }
